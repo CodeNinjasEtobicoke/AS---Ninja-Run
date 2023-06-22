@@ -15,7 +15,7 @@ public class Pickups : MonoBehaviour
         Pickup.Stop();
     }
 
-    void OntriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("coin"))
         {
